@@ -184,7 +184,7 @@ function SyncanoClient(instanceName = required('instanceName'), options = {}) {
         return JSON.stringify(data)
       }
     ]
-
+    console.log(url)
     return fetch({
       method: 'POST',
       url,
